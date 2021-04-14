@@ -1,7 +1,7 @@
             <div class="col-md-4">
 
                 <!-- Blog Search Well -->
-                <div class="well">
+                <!-- <div class="well">
                     <h4>Bus Search</h4>
                     <form action="search.php" method="post">
 
@@ -15,8 +15,8 @@
                             <button class="btn btn-primary" name="submit" style="margin-left: 130px; margin-top: 10px;">Search</button>
                         
                     </form>
-                    <!-- /.input-group -->
-                </div>
+    
+                </div> -->
 
 
                 <!-- Login -->
@@ -79,8 +79,5 @@
                     <!-- /.row -->
                 </div>
 
-
-                <!-- Side Widget Well -->
-                <?php include "widget.php"; ?>
 
             </div>

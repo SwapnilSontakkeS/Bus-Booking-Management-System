@@ -6,12 +6,12 @@
 
     <!-- Page Content -->
     <!-- <div class="container jumbotron" style="width: 45%; border-radius: 15px"> -->
-
-    <div class="container" style="width: 50%;">
+<div style="width: 100%;  height: 300%; background-image: url('profile_bg.jpg'); background-position: center;  background-repeat: no-repeat;   background-size: cover;   background-attachment: scroll;">
+    <div class="container">
                               
-        <h2 style="margin-left: 40%;">Profile</h2>
-        <?php $image = $_SESSION['s_image'] ; ?>
-        <img src="admin/images/<?php echo $image;?>" width="200" style="margin-left: 32%;" class="img-circle" alt="Profile"> 
+        <h2 style="margin-left: 40%;">User Profile</h2>
+        <!-- <?php $image = $_SESSION['s_image'] ; ?>
+        <img src="admin/images/<?php echo $image;?>" width="200" style="margin-left: 32%;" class="img-circle" alt="Profile">  -->
         <br><br><br><br>
         <div class="tab">
             <button class="tablinks" style="width: 33%" onclick="openCity(event, 'Personel Details')">Personal Details</button>
@@ -345,5 +345,4 @@
         evt.currentTarget.className += " active";
     }
     </script>
-
-<?php include "includes/footer.php"; ?> 
+  </div>

@@ -5,7 +5,7 @@
     <?php include "includes/navigation.php"; ?>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" >
 
         <div class="row">
 
@@ -42,10 +42,10 @@
                         <h2>
                             <a href="bus_info.php?bus_id=<?php echo $post_id; ?>"><?php echo $post_title; ?></a>
                         </h2>
-                        <p class="lead">
+                        <!-- <p class="lead">
                             by <a href="index.php"><?php echo $post_author; ?></a>
-                        </p>
-                        <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date; ?></p>
+                        </p> -->
+                        <!-- <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date; ?></p> -->
                         <hr>
                         <a href="bus_info.php?bus_id=<?php echo $post_id; ?>"><img class="img-responsive" src="images/<?php echo $post_image; ?>" alt=""></a>
                         <!-- <img class="img-responsive" src="images/<?php echo $post_image; ?>" alt=""> -->
@@ -65,5 +65,3 @@
         <!-- /.row -->
 
         <hr>
-
-<?php include "includes/footer.php"; ?>

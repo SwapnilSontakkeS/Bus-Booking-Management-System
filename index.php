@@ -5,6 +5,9 @@
     <?php include "includes/navigation.php"; ?>
 
     <!-- Page Content -->
+    <div  style = " height: 300%; background-image: url('background_road.jpg'); background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   background-attachment: scroll;">
     <div class="container">
 
         <div class="row">
@@ -86,10 +89,8 @@
         </div>
         <!-- /.row -->
 
-        <hr>
 
-
-        <ul class="pager">
+        <!-- <ul class="pager">
             <?php
                 for ($i=1; $i <= $count; $i++) { 
                     if($i !== $page) {
@@ -103,6 +104,6 @@
 
             ?>
         </ul>
+ -->
 
-
-<?php include "includes/footer.php"; ?>
+</div>

@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Projectworlds Bus</a>
+                <a class="navbar-brand" href="index.php">Bus Booking System</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,6 +56,15 @@
                         if (isset($_SESSION['s_username'])) {
                             # code...
                             ?>
+
+                            <li>
+                                <a href="includes/logout.php"><i class="fa fa-fw fa-desktop"></i> Logout</a>
+                            </li>
+
+                            <li>
+                                <a href="profile.php"><i class="fa fa-fw fa-desktop"></i> Profile</a>
+                            </li>
+
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php 
 
