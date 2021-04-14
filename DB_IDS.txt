@@ -1,0 +1,4 @@
+if($host === NULL) $host = "remotemysql.com";
+				if($username === NULL) $username = "Wv6pkhxcwK";
+				if($passwd === NULL) $passwd = "5KjJz5bGXl";
+				if($dbname === NULL) $dbname = "Wv6pkhxcwK";
