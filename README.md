@@ -19,34 +19,26 @@ Board Point Management
 
 Drop Point Management
 
-Promo Code management
-
 Gallery
 
 Add Agent
 
-Cancellation
-
 View Booking Details
 
-Seat Layout
-
-View Rating Details
 
 Admin login
-username - amit
+username - sv
 
-password amit
+password sv
 
 USER MODULE
 
 Can register or login
 Book bus.
 View and select the seat
-Use  promo code
 Book the ticket by selecting route, date of journey and the return date
 View available buses
-Payment integrated
+
 Brief overview of the technology:
 Front end: HTML, CSS, JavaScript
 
@@ -71,23 +63,3 @@ Open phpmyadmin
 Create Database named bus.
 Import database bus.sql from downloaded folder(inside database)
 4. Open Your browser put inside "http://localhost/Online Bus Booking System
-
-Most Related Search
-
-online bus booking system in php,
-online bus booking system project in php,
-online bus ticket booking system in php,
-online bus seat booking system in php,
-online bus booking system php mysql,
-online bus ticket booking system project in php,
-online bus pass booking system project in php,
-online ticket booking system in php,
-online movie ticket booking system in php,
-online cinema ticket booking system in php,
-online movie ticket booking system in php code,
-online bus ticket booking system php source code,
-online movie ticket booking system in php ppt,
-
-visite https://projectworlds.in
-
-#whatsapp 6263056779 
